@@ -16,8 +16,6 @@ speed = 0.75;
 
 isProjectile = true;
 
-spellIcon = "";
-
 function getRunes(list) {
 	list.add(ItemWrapper.getItemStack("RSMC:itemRune", 1, 0));
 	list.add(ItemWrapper.getItemStack("RSMC:itemRune", 1, 4));
@@ -27,6 +25,9 @@ function getDescription(list) {
 }
 function onImpactEntity(player, entity, theSpell, world) {
 	if(!entity.isLiving())
+		//Just an FYI, this function returns false or true on whether an impact will end the spell
+		//Returning false here will allow it to go through entities that are living, such as minecarts
+		//The same logic applies to onImpactBlock
 		return false;
 	var chance = CombatCalculator.calcMagicHitChance(player.theEntity, entity.theEntity);
 	var hit = CombatCalculator.calculateShouldHit(chance);
@@ -34,7 +35,7 @@ function onImpactEntity(player, entity, theSpell, world) {
 	var exp = 12;
 	var magic = PlayerTracker.getPlayer(player.thePlayer).getSkillList().getSkill(SkillBase.magic);
 	if(hit) {
-		var dmg = CombatCalculator.calculateMagicHit(player.theEntity, maxDamage + magic.getEffectiveLevel());
+		dmg = CombatCalculator.calculateMagicHit(player.theEntity, maxDamage + magic.getEffectiveLevel());
 		exp += 0.4 * dmg;
 	}
 	magic.addXP(exp);
