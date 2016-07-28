@@ -1,0 +1,5 @@
+cheat giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_IndustrialForge.PrimalItemStructure_IndustrialForge'" 1 1 false
+
+cheat giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle.PrimalItemArmor_QuetzSaddle'" 1 1 false
+
+admincheat GiveItemNum 306 1 1 false
