@@ -2,4 +2,6 @@ cheat giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc
 
 cheat giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle.PrimalItemArmor_QuetzSaddle'" 1 1 false
 
+cheat giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TitanSaddle_Platform.PrimalItemArmor_TitanSaddle_Platform'" 1 0 0
+
 admincheat GiveItemNum 306 1 1 false
