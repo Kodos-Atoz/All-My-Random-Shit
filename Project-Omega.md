@@ -8,15 +8,15 @@ Project Omega is the codename for Omega Fleet.  Omega Fleet is a Generic Sci-Fi 
 # Project Omega Mesh Checklist
 
 - [ ] Computer Systems
- - [ ] Computer Core (With Kodos' Fancy shit)
- - [ ] Wall Access Terminal
- - [ ] Access Station
+  - [ ] Computer Core (With Kodos' Fancy shit)
+  - [ ] Wall Access Terminal
+  - [ ] Access Station
 - [ ] Academy Objects
- - [ ] Screen
- - [ ] Podium
- - [ ] Desk
- - [ ] Speaker
- - [ ] Lights
+  - [ ] Screen
+  - [ ] Podium
+  - [ ] Desk
+  - [ ] Speaker
+  - [ ] Lights
 - [ ] Doors
 - [ ] Main Station
 - [ ] Rank Pips
@@ -50,4 +50,4 @@ Project Omega is the codename for Omega Fleet.  Omega Fleet is a Generic Sci-Fi 
 
 # Project Omega Miscellaneous Checklist
 
-- [X] Color Scheme
+- [ ] Color Scheme
