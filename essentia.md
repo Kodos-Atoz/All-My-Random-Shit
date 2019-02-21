@@ -9,7 +9,7 @@
 * Desiderium: Sugar (1 + 3 Herba + 2 Aqua + 1 Potentia + 1 Aer) Gold INgot (10 + 10 Metallum)
 * Exanimis: Zombie Brain (10 + 20 Cognitio + 5 Victus)
 * Fabrico: Crafting Table (20 + 9 Herba)
-* Gelum:
+* Gelum: Snow (1)
 * Herba: Oak Wood Logs (20)
 * Humanus: Rotten Flesh (5 + 5 Victus + 5 Perditio)
 * Ignis: Charcoal (10 + 10 Potentia)
